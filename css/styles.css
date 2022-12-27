@@ -662,7 +662,6 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 408px;
-  /* height: 584px; */
   background-color: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -695,6 +694,13 @@ body {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border: none;
 }
+
+.modal-close-btn:active {
+  background-color: var(--color-btn-bgrnd-active);
+  fill: var(--color-white);
+  border: none;
+}
+
 /* ================== /Modal window ================== */
 /* ==================  Modal form ================== */
 .modal-paragraph {
